@@ -81,3 +81,15 @@ button {
 button:hover {
 	background-color: #d9534f;
 }
+
+#first {
+	color: #007BFF;
+}
+
+#second {
+	color: #73d373;
+}
+
+#third {
+	color: #ff6b6b;
+}
