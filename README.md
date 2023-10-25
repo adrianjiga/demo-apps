@@ -1,9 +1,8 @@
 # demo-apps
+
 Demo applications created during my training on various subjects
 
-
 ## Installation
-
 
 ```bash
 to be filled in
