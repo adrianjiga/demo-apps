@@ -20,8 +20,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
 		const deleteButton = document.createElement("button");
 		deleteButton.appendChild(document.createTextNode("X"));
 		li.appendChild(deleteButton);
+
+		// Add an event listener to the delete button
 		deleteButton.addEventListener("click", function () {
-			li.classList.add("delete");
+			ul.removeChild(li);
 		});
 	}
 
