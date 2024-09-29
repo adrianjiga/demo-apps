@@ -7,6 +7,7 @@ Demo applications created during my training on various subjects. This repositor
 1. **To-Do List**: A task management application with a clean interface.
 2. **Vertical Timeline**: A visual representation of events in chronological order.
 3. **Color Picker**: An interactive tool for selecting and storing colors.
+4. **Memory Game**: A classic card-matching game to test and improve memory.
 
 ## Installation
 
@@ -24,7 +25,7 @@ Demo applications created during my training on various subjects. This repositor
 
 Each project is contained in its own folder. To use a specific demo app:
 
-1. Navigate to the project folder (e.g., `cd todo-list`)
+1. Navigate to the project folder (e.g., `cd memory-game`)
 2. Open the `index.html` file in your web browser
 3. Interact with the app as described in its interface
 
@@ -45,26 +46,25 @@ Each project is contained in its own folder. To use a specific demo app:
 - Click "Add Color" to add the selected color to the palette
 - Click on any color swatch in the palette to copy its hex code to your clipboard
 
+### Memory Game Usage
+
+- Click on cards to reveal the symbols underneath
+- Match pairs of identical symbols
+- Complete the game by matching all pairs
+- Track your moves and time taken
+- Click the "Reset Game" button to start a new game
+
 ## Project Structure
 
-### To-Do List
+Each project folder contains:
 
-- `index.html`: Main HTML file with the structure of the To-Do List
-- `style.css`: CSS file for styling the To-Do List
-- `script.js`: JavaScript file for the To-Do List functionality
-- `icon.svg`: SVG icon for the browser tab
+- `index.html`: Main HTML file with the structure of the app
+- `styles.css` or `style.css`: CSS file for styling the app
+- `script.js`: JavaScript file for the app's functionality
 
-### Vertical Timeline
+Additional files:
 
-- `index.html`: Main HTML file with the structure of the Vertical Timeline
-- `style.css`: CSS file for styling the Vertical Timeline
-- `script.js`: JavaScript file for the Vertical Timeline functionality
-
-### Color Picker
-
-- `index.html`: Main HTML file with the structure of the Color Picker
-- `styles.css`: CSS file for styling the Color Picker
-- `script.js`: JavaScript file for the Color Picker functionality
+- To-Do List: `icon.svg` (SVG icon for the browser tab)
 
 ## Contributing
 
